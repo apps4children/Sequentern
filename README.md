@@ -24,6 +24,5 @@ How to install
 4. Click ok when asked whether  to  install  the  app
 5. The app will be installed to the apps section of your device immediately.
 6. Now you can start  Sequentern  by click on this icon.
-7. 
 
 
