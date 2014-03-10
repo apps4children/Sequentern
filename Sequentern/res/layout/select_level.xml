@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/bg2"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="vertical"
+android:layout_gravity="center">
+ <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#ae0a94"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back"
+    android:layout_alignParentTop="true"/>
+   <TextView
+    android:id="@+id/textView11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Select Game Level"
+    android:textSize="@dimen/select_label_font"
+    android:textColor="#F5F5F5"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:shadowColor="#1868b2"
+    android:shadowRadius="1.0"
+    android:shadowDy="3.0"
+    android:shadowDx="3.0">
+  </TextView>
+</RelativeLayout>
+  
+ <ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <LinearLayout
+   android:orientation="vertical"
+   android:layout_height="wrap_content"
+   android:layout_width="fill_parent"
+   android:layout_weight="1">
+    <Button
+     android:id="@+id/learn_shapes"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Learn shapes" 
+     android:layout_gravity="center"/>
+
+    <Button
+     android:id="@+id/shape_to_shape"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Shape with shape" 
+     android:layout_gravity="center"/>
+
+    <Button
+     android:id="@+id/name_to_shape"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Name with shape" 
+     android:layout_gravity="center"/>
+     
+     <Button
+     android:id="@+id/shape_to_name"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Shape with name" 
+     android:layout_gravity="center"/>
+    
+    <Button
+     android:id="@+id/match_type1"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Sequence easy" 
+     android:layout_gravity="center"/>
+    
+    <Button
+     android:id="@+id/match_type2"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Sequence medium" 
+     android:layout_gravity="center"/>
+    
+    <Button
+     android:id="@+id/match_type3"
+     android:layout_height="wrap_content"
+     android:layout_width="@dimen/select_button_width"
+     android:textSize="@dimen/select_button_font"
+     android:textColor="#ae0a94"
+     android:textStyle="normal" 
+     android:typeface="sans"
+     android:text="Sequence hard" 
+     android:layout_gravity="center"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

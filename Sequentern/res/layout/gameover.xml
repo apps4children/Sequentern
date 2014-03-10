@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/gameover"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="horizontal"
+android:layout_gravity="center">
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_gravity="center" >
+<Button
+android:id="@+id/play"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center" 
+android:background="@drawable/btn1"/>
+<Button
+android:id="@+id/score"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center" 
+android:background="@drawable/btn4"/>
+<Button
+android:id="@+id/exit"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center" 
+android:background="@drawable/btn3"/>
+</LinearLayout>
+</LinearLayout>

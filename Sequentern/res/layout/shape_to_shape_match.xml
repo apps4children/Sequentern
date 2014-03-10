@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">  
+    
+    
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#ae0a94"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back"
+    android:layout_alignParentTop="true"/>
+    
+    <TextView
+     android:id="@+id/textView11"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="2dp"
+     android:gravity="center"
+     android:text="Match the correct shape from the box below"
+     android:textSize="22sp"
+     android:textColor="#F5F5F5"
+     android:typeface="sans"
+     android:textStyle="bold"
+     android:shadowColor="#1868b2"
+     android:shadowRadius="1.0"
+     android:shadowDy="2.0"
+     android:shadowDx="2.0">
+    </TextView>
+    </RelativeLayout>
+    
+    <TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="40">
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding">
+        </ImageView>
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding">
+        </ImageView>
+    </TableRow>
+    </TableLayout>
+    
+    <TableLayout
+    android:id="@+id/tableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:layout_weight="30">
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding"></ImageView>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding"></ImageView>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding"></ImageView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding"></ImageView>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="@dimen/button_width_height"
+            android:layout_height="@dimen/button_width_height"
+            android:padding="@dimen/image_padding"></ImageView>
+    </TableRow>
+    </TableLayout>
+    
+</LinearLayout>

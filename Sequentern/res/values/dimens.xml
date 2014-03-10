@@ -1,0 +1,17 @@
+<resources>
+  <dimen name="padding_small">4dp</dimen>
+  <dimen name="padding_medium">8dp</dimen>
+  <dimen name="padding_large">16dp</dimen>
+  
+  <dimen name="select_label_font">25sp</dimen>
+  <dimen name="select_button_font">18sp</dimen>
+  <dimen name="select_button_width">250dp</dimen>
+  
+  <dimen name="crop_size">80dp</dimen>
+  
+  <dimen name="image_padding">5dp</dimen>
+  <dimen name="button_width_height">95dp</dimen>
+  <dimen name="shape_name_font">13sp</dimen>
+  
+  <dimen name="report_padding">5dp</dimen>
+</resources>
