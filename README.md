@@ -8,7 +8,6 @@ Sequentern
 App Description
 
 This is an app designed for children to learn about the geometric shapes and their names.
-
 The first level teaches the name of the shapes. This level confirms and tests the learning of the shapes  by the user. 
 The second level has matching shape with the appropriate shape. This will test the user gets confused seeing the shapes with other geometric shapes. This will also help in teaching the children about sorting based on the shapes.
 The third level tests the learning of the names of shapes with the corresponding shapes.
